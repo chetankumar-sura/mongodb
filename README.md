@@ -34,3 +34,5 @@ db.products.find({"price":{$lte:400}}).pretty()
 db.products.find({"price":{$lte :400} $or {$eq :7999}}).pretty()
 
 db.products.find({"price":{$gte:100}).sort({"price":1}).pretty()
+
+
